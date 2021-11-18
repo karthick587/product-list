@@ -1,12 +1,9 @@
 import './producttab.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons'
-import Image from './img/image.jpg';
+
 import Chairtab from './chairtab';
 import Desk from './desk';
 import Drinkstab from './drinkstab';

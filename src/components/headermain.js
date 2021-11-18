@@ -1,17 +1,16 @@
 import logo2 from './logo2.svg';
 import './headermain.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
-import Pos from '../pos';
 
-import { Link, withRouter } from "react-router-dom";
+
+
 import React, { useState } from 'react'
-import LoadingBar from 'react-top-loading-bar'
+
 
 
 

@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComment } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -14,7 +13,7 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import image4 from './img/image4.jpg'
 import chair1 from './img/chair1.png'
 import chair2 from './img/chair2.png'
-import chair3 from './img/chair3.png'
+
 function Chairtab() {
   return (
     <div>

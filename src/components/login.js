@@ -5,12 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons'
+
 import Headermain from './headermain';
 import Footer from './footer';
 import { useHistory } from "react-router-dom"
-import Header from './header';
+
 import React, { useRef } from "react";
 import LoadingBar from "react-top-loading-bar";
 
