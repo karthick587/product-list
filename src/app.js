@@ -11,7 +11,8 @@ function App() {
    
 
     return (
-       
+        <div>
+       <div>hello</div>
     <Router>
        
          <Switch>
@@ -20,6 +21,7 @@ function App() {
    <Route  exact path="/addproduct" component={Addproduct} />
     </Switch>
     </Router>
+    </div>
     );
 }
 
