@@ -9,14 +9,14 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 
 
-import React, { useState } from 'react'
+import React from 'react'
 
 
 
 
 function Headermain() {
   
-  const [progress, setProgress] = useState(0)
+  
     
    
   return (
@@ -26,17 +26,17 @@ function Headermain() {
   <div className="container">
   <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src={logo2} alt="Logo2" /></a>
+    <a class="navbar-brand" href="/logo"><img src={logo2} alt="Logo2" /></a>
     <div class="dropicon drop">
-          <a class="droptext" href="#">
+          <a class="droptext" href="/cart">
           <FontAwesomeIcon icon={faShoppingCart} />
           <sup class="my_cart_quantity badge badge-primary" >0</sup>
           </a>
           <div class="dropcontent">
     <h4 >My cart</h4>
-    <a > <h5>
+     <h5>
           Your cart is empty!
-        </h5></a>
+        </h5>
     
   </div>
         </div>
@@ -46,49 +46,49 @@ function Headermain() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-                <a class="nav-link" > home
+                <a class="nav-link" href="/home" > home
                 </a>
               </li>
               <li class="nav-item">
-                <a  class="nav-link">
+                <a href="/home"  class="nav-link">
                   sales
                 </a>
               </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="/home" >Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Form</a>
+          <a class="nav-link"href="/home" >Form</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="/home" >Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Courses</a>
+          <a class="nav-link" href="/home" >Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Appointment</a>
+          <a class="nav-link" href="/home" >Appointment</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact us</a>
+          <a class="nav-link" href="/home" >Contact us</a>
         </li>
         <li class="nav-item dropicon">
-          <a class="nav-link droptext" href="#">
+          <a class="nav-link droptext" href="/home" >
           <FontAwesomeIcon icon={faShoppingCart} />
           <sup class="my_cart_quantity badge badge-primary" >0</sup>
           </a>
           <div class="dropcontent">
     <h4 >My cart</h4>
-    <a > <h5>
+   <h5>
           Your cart is empty!
-        </h5></a>
+        </h5>
     
   </div>
         </li>
       </ul>
       <div class="sign">
       <div class="nav-item ">
-          <a class="nav-link " >
+          <a href="/home"  class="nav-link " >
             Sign in
           </a>
         </div>

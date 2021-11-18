@@ -14,7 +14,7 @@ function Pos() {
   return (
     <div>
       
-        <Header pagelink={<a onClick={() => { history.push('/');}} ><h4>Close</h4></a>} pagename="Products"/>
+        <Header pagelink={<a  href="/"onClick={() => { history.push('/');}} ><h4>Close</h4></a>} pagename="Products"/>
         
         <div class="bodytab">
   <div class="row row-cols-2 pos-tabs">

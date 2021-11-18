@@ -68,10 +68,7 @@ function  Addproduct() {
   
   const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
     let history = useHistory();
-    const [value, setValue] = React.useState(0);
-    const HandleChange = (event, newValue) => {
-      setValue(newValue);
-    };
+   
     const [val, setVal] = useState('');
     const inputRef = useRef();
   
@@ -99,17 +96,17 @@ function  Addproduct() {
 
   return (
     <div>
-<Header pagelink={<a onClick={() => { history.push('/pos');}} ><h4>Close</h4></a>}  pagename="Add Product"/>
+<Header pagelink={<a onClick={() => { history.push('/pos');}} href="/pos"><h4>Close</h4></a>}  pagename="Add Product"/>
 
 <div className="container label">
 
 <div className="top-tab">
 <ul>
-    <li id="border"><a><FontAwesomeIcon icon={faGlobeAmericas} /><h5>Go TO <br/>Website</h5></a></li>
-    <li><a><FontAwesomeIcon icon={faArrowsAltH} /><h5>In:<br/>Out:</h5></a></li>
-    <li><a><FontAwesomeIcon icon={faFlask} /><h5>0<br/>Bill of material</h5></a></li>
-    <li><a><FontAwesomeIcon icon={faCreditCard} /><h5>00.00 Units<br/>Purchased</h5></a></li>
-    <li><a><FontAwesomeIcon icon={faSignal} /><h5>00.00 Units<br/>solid</h5></a></li>
+    <li id="border"><a href="#"> <FontAwesomeIcon icon={faGlobeAmericas} /><h5>Go TO <br/>Website</h5></a></li>
+    <li><a href="/bold"><FontAwesomeIcon icon={faArrowsAltH} /><h5>In:<br/>Out:</h5></a></li>
+    <li><a href="/out"><FontAwesomeIcon icon={faFlask} /><h5>0<br/>Bill of material</h5></a></li>
+    <li><a href="/run"><FontAwesomeIcon icon={faCreditCard} /><h5>00.00 Units<br/>Purchased</h5></a></li>
+    <li><a href="/runout"><FontAwesomeIcon icon={faSignal} /><h5>00.00 Units<br/>solid</h5></a></li>
 </ul>
 </div>
 <div className="container">
@@ -308,13 +305,13 @@ function  Addproduct() {
               <h5>Buy</h5>
            </li>
              <li>
-             <h5></h5>
+             <h5>..</h5>
              <FormControlLabel control={<Checkbox defaultChecked  style ={{color: "#35979c", }} />} label="" />
              <h5>Manufacture</h5>
               </li>
              <li class="arrow">
-               <h5></h5>
-               <FontAwesomeIcon icon={faArrowRight} /><a>Unit of Measure</a>
+               <h5>..</h5>
+               <FontAwesomeIcon icon={faArrowRight} /><a href="/unit">Unit of Measure</a>
              
               </li>
           

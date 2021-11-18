@@ -16,14 +16,7 @@ function Header(props) {
   let history = useHistory();
   const ref = useRef(null);
 
-  function handleLoadSomething() {
-        ref.current.continuousStart();
-        setTimeout(() => {
-            console.log("...loading something");
-            ref.current.complete();
-        }, 700);
-    }
-
+ 
   return (
     <div>
        <LoadingBar color="#f11946" ref={ref} />
@@ -43,7 +36,7 @@ function Header(props) {
   <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" /> karthick vj
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#" onClick={() => { history.push('/addproduct');}}>Add product</a></li>
+    <li><a class="dropdown-item" href="/addproduct" onClick={() => { history.push('/addproduct');}}>Add product</a></li>
     
   </ul>
 </div></div>
@@ -51,10 +44,6 @@ function Header(props) {
         <div className="nav7">{props.pagelink}</div>
         </div>
     </div>
-    
-   
-
-    
     </div>
   );
 }

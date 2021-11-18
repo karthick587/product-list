@@ -8,13 +8,7 @@ import Addproduct from './addproduct';
 function App() {
     const ref = useRef(null);
 
-    function handleLoadSomething() {
-          ref.current.continuousStart();
-          setTimeout(() => {
-              console.log("...loading something");
-              ref.current.complete();
-          }, 1000);
-      }
+   
 
     return (
        
