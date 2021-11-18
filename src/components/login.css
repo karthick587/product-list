@@ -1,0 +1,33 @@
+.oe_login_form, .oe_signup_form, .oe_reset_password_form {
+    max-width: 300px;
+    position: relative;
+    margin: 50px auto;
+}
+.form-group.field-login label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 3px;
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+}
+.form-group.field-password label {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 3px;
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+}
+button.btn.btn-primary.btn-block {
+    padding: 5px 126px;
+    background-color: #36979c;
+    border: none;
+}
+.justify-content-between.mt-2.d-flex.small a {
+    color: #35979c;
+    text-decoration: none;
+}
+.justify-content-between.mt-2.d-flex.small:hover{
+    text-decoration: underline;
+}
+.login-body {
+    padding: 27px 34px;
+}

@@ -1,0 +1,217 @@
+.top img{
+width: 100px;
+
+}
+.nav1 {
+    padding: 11px 14px;
+}
+.top {
+    background-color: #383e45;
+    display: flex;
+    height: 8vh;
+}
+.topnav{
+   
+    display: flex;
+    height: 9vh;
+}
+.nav2 {
+    display: flex;
+    padding: 0px 58px;
+    height: 8vh;
+}
+.nav2 h4:hover{
+    background-color: black;
+}
+.nav2 svg {
+  
+    color: white;
+    margin-top: 13px;
+    padding: 0px 6px;
+    font-size: 29px;
+}
+.nav2 h4 {
+    color: white;
+    font-size: 15px;
+    padding: 16px 10px;
+    cursor: pointer;
+    height: 8vh;
+}
+.nav3 h4 {
+    color: white;
+   
+    padding: 0px 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav3:hover{
+    background-color: black;
+}
+
+.nav3 {
+    /* height: 1vh; */
+    color: white;
+    /* margin-top: 16px; */
+    padding: 16px 9px;
+    height: 8vh;
+    display: flex;
+}
+
+.d-flex input {
+    border: none;
+    border-radius: 7px;
+    padding: 3px 10px;
+}
+
+.nav4 {
+    padding: 10px 10px;
+}
+.d-flex button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    padding: 3px 6px;
+    font-size: 16px;
+    color: #000000ad;
+}
+.d-flex input::placeholder{
+    padding: 0px 20px;
+}
+.nav5 .dropdown {
+    position: absolute;
+    right: 20%;
+    
+    margin-top: 10px;
+    
+   
+    
+    display: flex;
+   
+}
+.nav1 h4 {
+    font-size: 20px;
+    color: white;
+    opacity: 77%;
+    font-weight: 400;
+}
+.nav1 {
+    padding: 10px 0px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: white;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: black;
+    background-color: white;
+}
+ul.dropdown-menu.show {
+    padding: 8px 10px;
+    border-radius: 0px;
+    background-color:white;
+}
+a.dropdown-item {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+button#dropdownMenuButton1 {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+.dropdown-toggle::after {
+    /* display: inline-block; */
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    margin-top: 10px;
+}
+ul#pills-tab {
+    width: 100%;
+}
+.nav7 {
+    /* float: left; */
+    position: absolute;
+    right: 18px;
+    padding: 8px 1px;
+    /* font-size: 3px; */
+}
+body{
+    overflow-x: hidden;
+}
+.nav7 a h4 {
+    font-size: 21px;
+    color: #daddde9c;
+    font-weight: 400;
+    cursor: pointer;
+}
+.nav7:hover{
+    background-color: black;
+}
+
+
+@media screen and (max-width: 700px){
+.d-flex input {
+    border: none;
+    border-radius: 7px;
+    padding: 3px 5px;
+    width: 97px;
+}
+
+    .nav2 {
+        display: flex;
+        padding: 0px 0px;
+        height: 8vh;
+    }
+}
+@media screen and (max-width: 330px){
+   
+    .nav2 h4 {
+        color: white;
+        font-size: 13px;
+        padding: 11px 10px;
+        cursor: pointer;
+        height: 8vh;
+    }
+}
+.css-2s90m6-MuiAvatar-root {
+    /* position: absolute; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1.25rem;
+    line-height: 2;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #bdbdbd;
+    /* padding: 0px 2px; */
+    margin: -8px 1px;
+}

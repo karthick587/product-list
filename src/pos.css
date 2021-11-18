@@ -1,0 +1,349 @@
+.order-empty {
+    text-align: center;
+}
+.pad {
+    width: 100%;
+    /* margin-left: 4px; */
+    padding: 0px 5px;
+}
+.order-empty svg {
+    font-size: 55px;
+    color: #54505063;
+    /* padding: 20px 20px; */
+    /* margin: 50px 2px; */
+    opacity: 50%;
+    margin-top: 71px;
+}
+.order-empty h1 {
+    font-size: 19px;
+    color: #54505063;
+    /* padding: 20px 20px; */
+    /* margin: 50px 2px; */
+    opacity: 72%;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.order-container {
+    
+    margin-right: -25px;
+    border-bottom: solid 3px rgb(110, 200, 155);
+}
+.order-empty h1 {
+    margin-bottom: 30px;
+}
+.control-button {
+    display: flex;
+    flex-grow: 1;
+    background: #e2e2e2;
+    border: solid 1px #bfbfbf;
+    line-height: 38px;
+    min-width: 80px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all linear 150ms;
+}
+.control-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 8px 29px 0px 11px;
+    margin-bottom: -6px;
+}
+.daipad {
+    background-color: #daddde;
+    margin-right: -25px;
+}
+.control-button svg {
+    font-size: 14px;
+    padding: -1px 0px;
+    margin-top: 3px;
+    /* margin-left: 8px; */
+    margin-right: 5px;
+    
+}
+.control-button h4 {
+    font-size: 15px;
+    padding: 0px 0px;
+   
+}
+.subpad {
+    display: flex;
+    padding: 4px 17px;
+    margin-left: 4px;
+    height: 45vh;
+}
+.subpad-left {
+    width: 50%;
+    display: grid;
+    margin-bottom: 20px;
+}
+button.cus {
+   
+    border-bottom: none !important;
+    border: 1px solid #7971718a;
+    background: #e2e2e2;
+}
+button.cus svg {
+    margin-right: 17px;
+}
+button.arrov {
+    padding: 52px 39px;
+    border: 1px solid #7971718a;
+    background: #e2e2e2;
+}
+
+.svg-inline--fa.fa-w-10 {
+    width: 70px;
+}
+button.arrov svg {
+    /* font-size: 40px; */
+    color: white;
+    /* padding: 2px 10px; */
+    border-radius: 50%;
+    background-color: #21252975;
+    width: 71px;
+    height: 67px;
+    padding: 16px 2px;
+}
+button.arrov {
+    color: #797171;
+    font-weight: 600;
+}
+.mode-button{
+
+background: #e2e2e2;
+}
+.number-char{
+
+background: #e2e2e2;
+}
+.mode-button {
+   
+    border: 1px solid #7f78786e;
+    background: #e2e2e2;
+}
+.number-char {
+    
+    border: 1px solid #7f78786e;
+    background: #e2e2e2;
+}
+button.input-button.numpad-minus {
+  
+    border: 1px solid #7f78786e;
+    background: #e2e2e2;
+}
+button.input-button.numpad-backspace {
+    border: 1px solid #7f78786e;
+    
+    background: #e2e2e2;
+}
+button.input-button.number-char.dot {
+    border: 1px solid #7f78786e;
+   
+    background: #e2e2e2;
+}
+.col-4.pos-tab1 {
+    height: 91vh;
+}
+.btn:active {
+    background: black !important;
+    color: white;
+    border-color: transparent;
+}
+.btn:hover {
+    background: #efefef;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+@media screen and (max-width: 1260px){
+
+    .row.row-cols-2.pos-tabs {
+        display: grid;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        /* width: 33.33333333%; */
+        width: 100%;
+    }
+    .col-8 {
+        flex: 0 0 auto;
+        /* width: 66.66666667%; */
+        width: 100%;
+    }
+    .nav2 {
+        display: flex;
+        padding: 0px;
+        height: 8vh;
+    }
+    .nav1 {
+        padding: 11px 14px;
+        
+    }
+    .nav5 h4 {
+        
+        display: none;
+    }
+    .d-flex input {
+        border: none;
+        border-radius: 7px;
+        padding: 3px 5px;
+    }
+    
+}
+@media (max-width:1250px) and (min-width:1000px) {
+        .mode-button {
+           
+            border: 1px solid #7f78786e;
+            background: #e2e2e2;
+        }
+}
+
+
+
+    .mode-button {
+       
+        
+      
+      
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+    }
+    .number-char {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+        
+    }
+    button.input-button.numpad-backspace {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+       
+
+    }
+    button.input-button.numpad-minus {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+    }
+
+
+
+@media screen and (max-width: 520px){
+.btn1 {
+            font-size: 10px;
+            width: 58px !important;
+            height: 10vh !important;
+        }
+        .subpad-left {
+            /* width: 41%; */
+            width: auto;
+            display: grid;
+            margin-bottom: 45px;
+        }
+.products ul li button {
+        padding: 10px 14px !important;
+    }
+.number-char {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+       
+    }
+button.input-button.numpad-minus {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+       
+    }
+button.input-button.numpad-minus {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+        
+    }
+button.input-button.numpad-backspace {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+       
+    }
+button.input-button.number-char.dot {
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+    }
+.daipad {
+        background-color: #daddde;
+        margin-right: 0px;
+    
+    }
+.order-container {
+        height: 30vh;
+        margin-right: 0px;
+        border-bottom: solid 3px rgb(110, 200, 155);
+    }
+button.arrov {
+        padding: 47px 12px;
+        border: 1px solid #7971718a;
+        background: #e2e2e2;
+    }
+.bodytab {
+        overflow: hidden;
+    }
+.nav1 {
+        display: none;
+    }
+ .mode-button {
+       
+       
+        border: 1px solid #7f78786e;
+        background: #e2e2e2;
+    }
+    .subpad {
+        display: flex;
+        padding: 4px 17px;
+        margin-left: 4px;
+        height: 47vh;
+    }
+}
+.btn1 {
+    width: 49px;
+    font-size: 12px;
+    height: 10vh;
+}
+
+
+
+
+
+
+ @media screen and (max-width: 400px){
+    .btn1 {
+        font-size: 10px;
+        width: 44px !important;
+        height: 10vh !important;
+    }
+    .subpad-left {
+        /* width: 41%; */
+        width: auto;
+        display: grid;
+        margin-bottom: 36px;
+    }
+}
+
+
+@media screen and (max-width: 330px){
+    .nav2 h4 {
+        color: white;
+        font-size: 13px;
+        padding: 11px 10px;
+        cursor: pointer;
+        height: 8vh;
+    }
+.btn1 {
+    font-size: 10px;
+    width: 34px !important;
+    height: 10vh !important;
+}
+
+}

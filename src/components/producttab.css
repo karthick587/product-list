@@ -1,0 +1,51 @@
+.products ul li button {
+    padding: 10px 40px;
+   
+    color: white;
+    border-radius: 0px !important;
+    border-right: 1px solid #00000054 !important;
+    font-size: 12px;
+}
+.products ul li {
+    padding: 0px 0px;
+}
+button.active{
+    background-color: brown;
+}
+.products ul li button:hover{
+
+background-color: #226c70 !important;
+    color: white;
+}
+.products {
+    border-left: solid 3px #787878;
+    height: 91vh;
+    background-color: #78838445;
+}  
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #383e4596;
+}
+ul#pills-tab {
+    width: 100%;
+    background-color: #35979c;
+}
+article.product-item {
+    padding: 13px 0px;
+}
+@media screen and (max-width: 700px){
+    .products {
+        border-left: solid 0px #787878;
+        height: 91vh;
+        background-color: #78838445;
+    }
+    .products ul li button {
+        padding: 10px 19px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .products ul li button {
+        padding: 10px 12px !important;
+    }
+}

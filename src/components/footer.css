@@ -1,0 +1,23 @@
+.bottom {
+    background-color: #383e45;
+    padding: 56px 50px;
+}
+.list-unstyled li a{
+    color: #35979c;
+    text-decoration:none;
+}
+.ft2 p{
+    color: white;
+   
+}
+.ft2 h5{
+    color: white;
+}
+.o_footer_copyright.o_colored_level.o_cc {
+   
+    background: #2c3035;
+}
+#connect ul li svg {
+    width: 37px;
+    color: white;
+}

@@ -1,0 +1,124 @@
+a.navbar-brand img {
+    width: 103px;
+}
+.sign a {
+    padding: 7px 31px;
+    font-weight: 700;
+    color: rgba(0,0,0,.55) !important;
+}
+.sign{
+    display: flex;
+}
+.nav-top{
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 19%) !important;
+
+}
+.btn-outline-success{
+    background-color:#35979c !important;
+    color: white;
+}
+.btn-outline-success:hover{
+    background-color:#226c70 !important;
+    color: white;
+}
+.badge-primary {
+    color: #FFFFFF;
+    background-color: #35979c;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.dropicon {
+    position: relative;
+    margin-left: 15px;
+    display: inline-block;
+  
+}
+.dropcontent a{
+    display: inline;
+    
+}
+.dropcontent {
+   position: absolute;
+   display: none;
+   transition-duration: 1s;
+}
+.dropicon:hover .dropcontent{
+    display: block;
+   
+}
+.dropcontent h4 {
+    font-size: 15px;
+    width: 160px;
+    font-weight: 400;
+    padding: 9px 9px;
+    
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    border-bottom: 1px solid #ebebeb;
+    width: 200px;
+}
+.dropcontent {
+    position: absolute;
+    display: none;
+   
+    height: 16vh;
+    background-color:white;
+    margin-left: -65px;
+    border-radius: 4px;
+    z-index: 2;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.dropcontent a h5 {
+    text-decoration: none !important;
+    font-size: 13px;
+    width: 143px;
+    padding: 13px 13px;
+    margin-left: 28px;
+    border-radius: 4px;
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+.sign {
+    display: flex;
+    cursor: pointer;
+}
+.dropicon.drop {
+    display: none;
+}
+@media screen and (max-width: 992px){
+    .dropicon.drop {
+        display: block;
+        padding: 13px 11px;
+    }
+    .dropicon.drop a svg{
+        color: grey;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border:none;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0rem;
+    }
+    li.nav-item.dropicon {
+        display: none;
+    }
+}
+
+
