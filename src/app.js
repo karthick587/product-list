@@ -2,11 +2,11 @@ import './index.css';
 import Login from './components/login';
 import Pos from './pos';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
-import React, { useRef } from "react";
+import React from "react";
 
 import Addproduct from './addproduct';
 function App() {
-    const ref = useRef(null);
+    
 
    
 

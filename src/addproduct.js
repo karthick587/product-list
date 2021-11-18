@@ -102,7 +102,7 @@ function  Addproduct() {
 
 <div className="top-tab">
 <ul>
-    <li id="border"><a href="#"> <FontAwesomeIcon icon={faGlobeAmericas} /><h5>Go TO <br/>Website</h5></a></li>
+    <li id="border"><a href="/icon"> <FontAwesomeIcon icon={faGlobeAmericas} /><h5>Go TO <br/>Website</h5></a></li>
     <li><a href="/bold"><FontAwesomeIcon icon={faArrowsAltH} /><h5>In:<br/>Out:</h5></a></li>
     <li><a href="/out"><FontAwesomeIcon icon={faFlask} /><h5>0<br/>Bill of material</h5></a></li>
     <li><a href="/run"><FontAwesomeIcon icon={faCreditCard} /><h5>00.00 Units<br/>Purchased</h5></a></li>

@@ -21,11 +21,11 @@ function Footer() {
                             <h5 class="mb-3">Useful Links</h5>
                             <ul class="list-unstyled">
                                 <li><a href="/">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Legal</a></li>
-                                <li><a href="/contactus">Contact us</a></li>
+                                <li><a href="/">About us</a></li>
+                                <li><a href="/">Products</a></li>
+                                <li><a href="/">Services</a></li>
+                                <li><a href="/">Legal</a></li>
+                                <li><a href="/">Contact us</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-5 pt24 pb24 ft2">

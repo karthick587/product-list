@@ -28,7 +28,7 @@ function Login() {
         <Headermain />
    <div className="login-body">
    <div class="container">
-            <form class="oe_login_form" role="form" method="post" href="/home"  >
+            <form>
                 <input type="hidden" name="csrf_token" data-oe-model="ir.ui.view" data-oe-id="190" data-oe-field="arch" />
                 <div class="form-group field-login">
                     <label htmlFor="login" data-oe-model="ir.ui.view"  data-oe-field="arch" >Email</label>
