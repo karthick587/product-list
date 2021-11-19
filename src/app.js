@@ -13,7 +13,7 @@ function App() {
     return (
         <div>
        <div>hello</div>
-    <Router>
+    <Router basename="/index.html">
        
          <Switch>
    <Route  exact path="/" component={Login} />
